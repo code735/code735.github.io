@@ -10,12 +10,7 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div className="App">
-      <About />
-      <Contact />
-      <Home />
       <Navbar />
-      <Projects />
-      <Skills />
     </div>
   );
 }
