@@ -2,7 +2,7 @@ const Navbar = ()=>{
     
     return <div id="nav-menu" style={{
         height:"100vh",
-        width:"7vw",
+        width:"10vw",
         display:"flex",
         alignItems:"center",
         padding:"10px 0",
@@ -27,6 +27,7 @@ const Navbar = ()=>{
                <a href="" class="nav-link skills"><i class="bi bi-mortarboard-fill"></i></a>
                <a href="" class="nav-link projects"><i class="bi bi-file-earmark-code-fill"></i></a>
                <a href="" class="nav-link contact"><i class="bi bi-phone"></i></a>
+               <a href="" class="nav-link resume"><i class="bi bi-file-richtext-fill"></i></a>
         </nav>
     </div>;
 }
