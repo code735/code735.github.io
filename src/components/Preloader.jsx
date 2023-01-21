@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Preloader() {
+export default function Preloader({display}) {
   return (
-    <div id="preloader">
+    <div id="preloader" style={display}>
         <div id="load">
           <div>G</div>
           <div>N</div>

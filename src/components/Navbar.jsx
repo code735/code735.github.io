@@ -1,4 +1,4 @@
-const Navbar = ()=>{
+const Navbar = ({handleBg,theme})=>{
     
     return <div id="nav-menu" style={{
         height:"100vh",
@@ -9,7 +9,7 @@ const Navbar = ()=>{
         boxSizing:"border-box"
     }}>
         <div className="theme">
-            <button><i class="bi bi-brightness-low-fill" style={{color:"white"}}></i></button>
+            <button onClick={handleBg}><i class={theme} style={{color:"white",border:"none"}}></i></button>
         </div>
         <nav style={{
             background: "#171717",
