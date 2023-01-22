@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 .App {
   width: 100vw;
   height: 100vh;
@@ -25,6 +29,14 @@ a {
   background-size: cover;
 }
 
+.text_black {
+  color: #171717;
+}
+
+.text_white {
+  color: white;
+}
+
 /* NAVBAR COMPONENT */
 
 #nav-menu {
@@ -32,7 +44,7 @@ a {
 }
 
 .nav-link {
-  padding: 10px;
+  padding: 10px 12px;
   color: white;
 }
 
@@ -44,6 +56,11 @@ a {
   background: #171717;
   padding: 5px 7px;
   border-radius: 100%;
+  border: none;
+}
+
+.bi-brightness-low-fill {
+  font-size: 2rem !important;
 }
 
 .theme button i {
@@ -52,7 +69,6 @@ a {
 
 /* NAVBAR COMPONENT */
 
-
 /* Section Render */
 
 .sections-render::-webkit-scrollbar {
@@ -60,6 +76,34 @@ a {
 }
 
 /* Section Reender */
+
+
+/* Home Section */
+
+
+/* Home section */
+
+
+/* Skills Section */
+.logo_img {
+  width: 50px;
+}
+
+.skill-link {
+  width: 10%;
+  height: 60px;
+  background: #171717;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.skill-link img {
+  object-fit: contain;
+}
+
+/* Skills Section */
 
 /* Preloader Animation */
 #preloader {

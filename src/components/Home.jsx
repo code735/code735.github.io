@@ -1,14 +1,14 @@
 import React from "react";
 import src from "../images/hero.jpg";
 
-const Home = ()=>{
-    return <div id="home" style={{height:"68vh",border:"10px solid #171717",borderRadius:"40px",margin:"10px",backdropFilter:"blur(10px)"}}>
+const Home = ({textColor})=>{
+    return <div id="home" style={{border:"10px solid #171717",borderRadius:"40px",margin:"10px",backdropFilter:"blur(10px)"}}>
                 <div style={{display:"flex",height:"100%"}}>
                     <div style={{width:"50%",boxSizing:"border-box",padding:"30px"}}>
-                        <h1 style={{fontFamily:"Inter, sans-serif",fontSize:"4.3rem",color:"white"}} id="user-detail-name">
+                        <h1 style={{fontFamily:"Inter, sans-serif",fontSize:"4.3rem"}} className={textColor} id="user-detail-name">
                             Hi, I’am Prathmesh Kumbhar
                         </h1>
-                        <h3 style={{fontSize:"2rem",color:"white",padding:"10px 0"}}>FullStack Developer</h3>
+                        <h3 style={{fontSize:"2rem",padding:"10px 0"}} id="user-detail-intro" className={textColor}>FullStack Developer</h3>
                         <button style={{
                             background:"#171717",
                             color:"white",
