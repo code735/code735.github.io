@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb252f7a.css",
-    "main.js": "/static/js/main.04e1d357.js",
+    "main.css": "/static/css/main.fc2928a6.css",
+    "main.js": "/static/js/main.dcef2c2f.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/lightMode.gif": "/static/media/lightMode.4b34bc6b49588407a42a.gif",
     "static/media/image_processing20230115-32361-1q1iie1.gif": "/static/media/image_processing20230115-32361-1q1iie1.a78f8bca10aef0bbc130.gif",
+    "static/media/star_wars.png": "/static/media/star_wars.fd007df6443ab6323236.png",
+    "static/media/youtube_clone.png": "/static/media/youtube_clone.6d984c0df57c4efb4e32.png",
     "static/media/hero.jpg": "/static/media/hero.e50912934ef8dd65f249.jpg",
+    "static/media/stanzaliving.png": "/static/media/stanzaliving.37177a5188b34ca23934.png",
+    "static/media/nykaa.png": "/static/media/nykaa.34695fb8161573a329f8.png",
     "index.html": "/index.html",
-    "main.bb252f7a.css.map": "/static/css/main.bb252f7a.css.map",
-    "main.04e1d357.js.map": "/static/js/main.04e1d357.js.map",
+    "main.fc2928a6.css.map": "/static/css/main.fc2928a6.css.map",
+    "main.dcef2c2f.js.map": "/static/js/main.dcef2c2f.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb252f7a.css",
-    "static/js/main.04e1d357.js"
+    "static/css/main.fc2928a6.css",
+    "static/js/main.dcef2c2f.js"
   ]
 }
