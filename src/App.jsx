@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Preloader from './components/Preloader';
+import Userbox from './components/Userbox';
 
 const App = () => {
   let [bg, setbg] = useState("App bg_1");
@@ -40,18 +41,18 @@ const App = () => {
   return (
     <div className={bg}>
       <Preloader display={loading}></Preloader>
+      <Userbox textColor={text} />
       <div style={{
         display: "flex",
         alignItems: "center",
         justifyContent: "space-evenly"
       }}>
         <Navbar handleBg={handleBg} theme={theme} />
-        <div className='sections-render' style={{ width: "72vw", height: "78vh", overflowY: "scroll", borderRadius: "20px" }}>
-          <Home textColor={text} />
-          <About textColor={text} />
-          <Skills textColor={text} />
-          <Projects />
-          <Contact />
+        <div style={{
+          width:"70vw",
+          height:"70vh"
+        }}>
+          <About/>
         </div>
       </div>
     </div>

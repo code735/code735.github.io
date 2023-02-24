@@ -90,13 +90,12 @@ img {
 }
 
 .skill-link {
-  width: 10%;
+  width: 16%;
   height: 60px;
   background: #171717;
   display: flex;
-  margin: 10px;
+  margin: 7px 10px;
   padding: 10px;
-  border-radius: 10px;
 }
 
 .skill-link img {
@@ -104,6 +103,34 @@ img {
 }
 
 /* Skills Section */
+
+/* project section */
+.project-card {
+  width: 45%;
+  margin: 10px;
+  background: #171717;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* project section */
+
+/* contact section */
+#contact a {
+  display: block;
+  width: 82px;
+  background: #171717;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* contact section */
 
 /* Preloader Animation */
 #preloader {
