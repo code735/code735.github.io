@@ -2,7 +2,7 @@
   "name": "code735",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://code735.github.io",
+  "homepage": "https://code735.github.io/code735.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
